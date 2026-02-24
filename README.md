@@ -1,6 +1,6 @@
-Aquí tienes el código fuente en formato **Markdown** listo para que lo copies y lo pegues directamente en tu archivo `README.md`.
 
-```markdown
+
+
 # 🚀 Master Frontend: Entrega de Ejercicios React
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -29,10 +29,8 @@ El proyecto se ha organizado siguiendo una arquitectura de componentes escalable
 ```text
 src/
 ├── components/     # UI reusable (Buttons, Inputs, Cards)
-├── exercises/      # Módulos independientes (Ejercicios 1-9)
-├── layouts/        # MainLayout (Estructura Sidebar + Dashboard)
-├── routes/         # Configuración centralizada de react-router
-└── styles/         # CSS Modules y configuraciones globales
+├── pages/          # Módulos independientes (Ejercicios 1-9)
+app.tsx
 
 ```
 
@@ -59,7 +57,7 @@ Sigue estos pasos para desplegar el proyecto localmente:
 
 1. **Clonar el repositorio:**
 ```bash
-git clone [https://github.com/tu-usuario/master-react-delivery.git](https://github.com/tu-usuario/master-react-delivery.git)
+git clone https://github.com/fran960828/Entrega_1_React.git
 
 ```
 

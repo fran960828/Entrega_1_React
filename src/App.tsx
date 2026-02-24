@@ -9,13 +9,11 @@ import { Ejercicio6 } from "./Pages/Ejercicio6";
 import { Ejercicio7 } from "./Pages/Ejercicio7";
 import { Ejercicio8 } from "./Pages/Ejercicio8";
 import { Ejercicio9 } from "./Pages/Ejercicio9";
+import { Welcome } from "./Pages/Welcome";
 
 
 function App() {
   
-
-// Importa tus ejercicios aquí
-// import Ejercicio1 from './exercises/Ejercicio1';
 
  const router = createBrowserRouter([
   {
@@ -24,7 +22,7 @@ function App() {
     children: [
       {
         index: true,
-        element: <div>Bienvenido</div>, // Página de bienvenida
+        element: <Welcome/>, // Página de bienvenida
       },
       {
         path: "exercise/1",

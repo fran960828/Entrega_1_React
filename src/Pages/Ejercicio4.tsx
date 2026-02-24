@@ -1,4 +1,4 @@
-import { useState, type  ChangeEvent } from "react";
+import { useState, type ChangeEvent } from "react";
 
 interface Data {
   id: number;
