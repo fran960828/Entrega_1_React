@@ -62,7 +62,10 @@ function App() {
       },
     ],
   },
-]);
+],
+{
+  basename:'/Entrega_1_React/'
+});
 
 
 
